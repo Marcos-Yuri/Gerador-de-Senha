@@ -1,4 +1,4 @@
-{
+*{
     font-family: sans-serif;
     width: 100%;
     margin: 0 auto;
@@ -27,7 +27,7 @@ body{
 
 .container-input span{
     color: #4e4747;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .slider{
@@ -96,6 +96,11 @@ body{
     visibility: hidden;
     opacity: 0;
     transition: all 0.5s ease-in-out;
+}
+
+    
+.hide{
+    display: nonE;
 }
 
 .container-password:hover .tooltip{
